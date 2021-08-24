@@ -33,6 +33,7 @@ Complete the following to prepare for this assignment
 - Dan Howarth “[Generative Design Software Will Give Designers ‘Superpowers’](https://www.dezeen.com/2017/02/06/generative-design-software-will-give-designers-superpowers-autodesk-university/)” Dezeen, 2017 [video](https://www.youtube.com/watch?v=h7gq7OrbgxY) (2:18)
 - Eduardo Souza “[How Will Generative Design Impact Architecture?](https://www.archdaily.com/937772/how-will-generative-design-impact-architecture)” ArchDaily, 2020
 -  Samantha Pires [The Architecture of Zaha Hadid: 10 Great Buildings by the Queen of the Curve](https://mymodernmet.com/zaha-hadid-buildings-queen-of-the-curve/), 2021
+- View more articles from this [Random Article Generator](https://codepen.io/owenmundy/pen/PomvjqW?editors=1010)
 
 ### Technical
 
@@ -44,7 +45,7 @@ Complete the following to prepare for this assignment
 
 ### Examples
 
-Critical Web Design / Radical Software [examples tagged with #generative or #remix](https://docs.google.com/spreadsheets/d/1mQ0doWT6tGXm2W-hB5zuz3I8mijGhLSkAe_XrcfMdok/edit#gid=0)
+- Critical Web Design / Radical Software [examples tagged with #generative or #remix](https://docs.google.com/spreadsheets/d/1mQ0doWT6tGXm2W-hB5zuz3I8mijGhLSkAe_XrcfMdok/edit#gid=0)
 
 
 </details>
@@ -56,11 +57,14 @@ Critical Web Design / Radical Software [examples tagged with #generative or #rem
 
 
 
-<img src="assets/img/Generative_Design_Process-retouched.png" align="right" width="450">
 
-This assignment asks you to create a web page that taps into data-driven processes. On one hand, almost all software and website you interact with somehow generates an interface using information from a database. Even boring shopping websites use cookies to identify and customize pages for users, which they [sometimes use against their own customers](https://www.justice.gov/opa/pr/amazon-marketplace-seller-pleads-guilty-price-fixing-dvds-and-blu-ray-discs).
+This assignment asks you to create a web page that can generate new iterations of itself based on input from the user, available data (e.g. time, location, etc.), or pure randomness.
 
-However, Generative Design is a larger cultural trend that, similar to data-driven websites, use algorithms to create (and recreate) designs and concepts for architecture, objects, behaviors, animations, games, and much more. Regardless of your approach, your project should mimic these processes, using code and data, similar to the following diagram from the book, [Generative Design: Visualize, Program, and Create with JavaScript in p5.js](http://www.generative-gestaltung.de/) by Groß, Bohnacker, and Laub.
+<a href="assets/img/Generative_Design_Process-retouched.png"><img src="assets/img/Generative_Design_Process-retouched.png" align="right" width="450"></a>
+
+On one hand, almost all software and websites you interact with somehow generate an interface using information from a database and specific rules. Even boring shopping websites use cookies to identify and customize pages for users ([regardless who stands to benefit](https://www.justice.gov/opa/pr/amazon-marketplace-seller-pleads-guilty-price-fixing-dvds-and-blu-ray-discs)).
+
+[Generative Design](https://en.wikipedia.org/wiki/Generative_design) is a related cultural trend that, similar to data-driven websites, uses coded rules and algorithms to create (and recreate) designs and concepts for architecture, objects, behaviors, animations, games, and much more. This diagram from the book, [Generative Design: Visualize, Program, and Create with JavaScript in p5.js](http://www.generative-gestaltung.de/) by Groß, Bohnacker, and Laub, shows how these processes can create new iterations, using varying degrees of input from the creator, in order to ideate or solve specific design or aesthetic issues. Regardless of your approach, your project should mimic these processes somehow, reflecting your own thinking on this subject.
 
 
 
