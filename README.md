@@ -32,7 +32,6 @@ Complete the following to prepare for this assignment
 
 - Dan Howarth “[Generative Design Software Will Give Designers ‘Superpowers’](https://www.dezeen.com/2017/02/06/generative-design-software-will-give-designers-superpowers-autodesk-university/)” Dezeen, 2017 [video](https://www.youtube.com/watch?v=h7gq7OrbgxY) (2:18)
 - Eduardo Souza “[How Will Generative Design Impact Architecture?](https://www.archdaily.com/937772/how-will-generative-design-impact-architecture)” ArchDaily, 2020
--  Samantha Pires [The Architecture of Zaha Hadid: 10 Great Buildings by the Queen of the Curve](https://mymodernmet.com/zaha-hadid-buildings-queen-of-the-curve/), 2021
 - View more articles from this [Random Article Generator](https://codepen.io/owenmundy/pen/PomvjqW?editors=1010)
 
 ### Technical
@@ -56,8 +55,6 @@ Complete the following to prepare for this assignment
 ## About
 
 
-
-
 This assignment asks you to create a web page that can generate new iterations of itself based on input from the user, available data (e.g. time, location, etc.), or pure randomness.
 
 <a href="assets/img/Generative_Design_Process-retouched.png"><img src="assets/img/Generative_Design_Process-retouched.png" align="right" width="450"></a>
@@ -68,7 +65,10 @@ On one hand, almost all software and websites you interact with somehow generate
 
 
 
+### Resources of interest
 
+- [faker.js](https://www.npmjs.com/package/faker) and [hosted version](https://fakercloud.com/api)
+- [Projects similar to faker.js](https://awesomeopensource.com/projects/faker)
 
 
 
