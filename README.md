@@ -12,7 +12,7 @@ Create a dynamic web page that uses data to change its presentation
 <details>
 <summary>Learning Objectives</summary>
 
-Students who complete the following will be able to:
+Students who complete this assignment will be able to:
 
 - Describe how data is used to create generative processes in software, design, architecture, etc.
 - Compare outcomes of generative processes across different disciplines.
@@ -26,7 +26,7 @@ Students who complete the following will be able to:
 <details>
 <summary>Preparation</summary>
 
-Complete the following to prepare for this assignment
+Complete the following to prepare for this assignment. See [Resources](#resources) for additional information as needed.
 
 ### Concept
 
@@ -65,7 +65,7 @@ On one hand, almost all software and websites you interact with somehow generate
 
 
 
-### Resources of interest
+### Potential sources
 
 - [faker.js](https://www.npmjs.com/package/faker) and [hosted version](https://fakercloud.com/api)
 - [Projects similar to faker.js](https://awesomeopensource.com/projects/faker)
