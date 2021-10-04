@@ -28,24 +28,11 @@ Students who complete this assignment will be able to:
 
 Complete the following to prepare for this assignment. See [Resources](#resources) for additional information as needed.
 
-### Concept
-
-- Dan Howarth “[Generative Design Software Will Give Designers ‘Superpowers’](https://www.dezeen.com/2017/02/06/generative-design-software-will-give-designers-superpowers-autodesk-university/)” Dezeen, 2017 [video](https://www.youtube.com/watch?v=h7gq7OrbgxY) (2:18)
-- Eduardo Souza “[How Will Generative Design Impact Architecture?](https://www.archdaily.com/937772/how-will-generative-design-impact-architecture)” ArchDaily, 2020
-- View more articles from this [Random Article Generator](https://codepen.io/owenmundy/pen/PomvjqW?editors=1010)
-
-### Technical
-
 - [Codecademy: JS 3-1 Functions](https://www.codecademy.com/learn/introduction-to-javascript) (1-7)
 - [Codecademy: JS 4-1 Scope](https://www.codecademy.com/learn/introduction-to-javascript) (1-4)
 - [Codecademy: JS 5-1 Arrays](https://www.codecademy.com/learn/introduction-to-javascript) (1–7)
 - [Codecademy: JS 6-1 Loops](https://www.codecademy.com/learn/introduction-to-javascript) (1–7)
 - Javascript.info JS [Comparison](https://javascript.info/comparison), [Logical operators](https://javascript.info/logical-operators), [Functions](https://javascript.info/function-basics), [Loops: while and for](https://javascript.info/while-for)
-
-### Examples
-
-- Critical Web Design / Radical Software [examples tagged with #generative or #remix](https://docs.google.com/spreadsheets/d/1mQ0doWT6tGXm2W-hB5zuz3I8mijGhLSkAe_XrcfMdok/edit#gid=0)
-
 
 </details>
 
@@ -65,32 +52,41 @@ On one hand, almost all software and websites you interact with somehow generate
 
 
 
-### Potential sources
 
-- [faker.js](https://www.npmjs.com/package/faker) and [hosted version](https://fakercloud.com/api)
-- [Projects similar to faker.js](https://awesomeopensource.com/projects/faker)
+
+
 
 
 
 ## Instructions
 
-- [ ] Fork this repository and clone it to your `critical-web-design` folder on your machine.
-- [ ] Develop a concept for your project using the materials above.
-- [ ] Use Figma to create a wireframe and design iterations for your project.
+1. Fork this repository and clone it to your `critical-web-design` folder on your machine.
+
+
+#### Concept
+
+1. Develop a concept for your project. Consider:
+    1. Examples of generative works
+        - Articles: "[Generative Design Software Will Give Designers ‘Superpowers’](https://www.dezeen.com/2017/02/06/generative-design-software-will-give-designers-superpowers-autodesk-university/)", [video](https://www.youtube.com/watch?v=h7gq7OrbgxY) (2:18), "[How Will Generative Design Impact Architecture?](https://www.archdaily.com/937772/how-will-generative-design-impact-architecture)", and more from this [Random Article Generator](https://codepen.io/owenmundy/pen/PomvjqW?editors=1010)
+        - Critical Web Design / Radical Software [examples tagged with #generative or #remix](https://docs.google.com/spreadsheets/d/1mQ0doWT6tGXm2W-hB5zuz3I8mijGhLSkAe_XrcfMdok/edit#gid=0)
+        - https://0x72.itch.io/pixeldudesmaker (example of [sprite](https://raw.githubusercontent.com/omundy/sample-unity-animation/main/Assets/Sprite_Anim_Fred/Textures/fred-cinemachine-2.gif))
+    1. Potential sources for content
+        - [faker.js](https://www.npmjs.com/package/faker) and [hosted version](https://fakercloud.com/api), and [similar projects](https://awesomeopensource.com/projects/faker)
+1. Use Figma to create wireframe and design iterations for your project. Create a design for mobile and desktop, as well as the different stages of your app.
 
 
 
 #### Code
 
-- [ ] Use HTML, CSS, and JS to code your design inside `index.html`
-- [ ] Use Javascript variables, conditional logic, loops, etc. to somehow change the page every time it loads.
-- [ ] Use images, other media, or code libraries as needed.
+1. Use HTML, CSS, and JS to code your design inside `index.html`
+1. Use Javascript variables, conditional logic, loops, etc. to somehow change the page every time it loads.
+1. Use images, other media, or code libraries as needed.
 
 #### Publish
-- [ ] [Save and refresh](https://github.com/omundy/learn-computing/blob/main/topics-keyboard-shortcuts.md#web-development-edit-save-refresh-loop) your work in the browser often to see your changes.
-- [ ] Commit changes regularly.
-- [ ] Confirm valid [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/) <sup>([?](https://github.com/omundy/dig245-critical-web-design/blob/main/reference-sheets/css.md#css-validation))</sup>
-- [ ] When finished, [push, publish, and post your project](https://docs.google.com/document/d/17U_zmzM_eML_qkG0PaOdDRcEk3YEmbiQ1TyNnbAM08k/edit#bookmark=id.8jryplv1i8a)
+1. [Save and refresh](https://github.com/omundy/learn-computing/blob/main/topics-keyboard-shortcuts.md#web-development-edit-save-refresh-loop) your work in the browser often to see your changes.
+1. Commit changes regularly.
+1. Confirm valid [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/) <sup>([?](https://github.com/omundy/dig245-critical-web-design/blob/main/reference-sheets/css.md#css-validation))</sup>
+1. When finished, [push, publish, and post your project](https://docs.google.com/document/d/17U_zmzM_eML_qkG0PaOdDRcEk3YEmbiQ1TyNnbAM08k/edit#bookmark=id.8jryplv1i8a)
 
 
 
