@@ -14,11 +14,11 @@ Create a dynamic web page that uses data to change its presentation
 
 Students who complete this assignment will be able to:
 
-- Describe how data is used to create generative processes in software, design, architecture, etc.
-- Compare outcomes of generative processes across different disciplines.
-- Write pseudo code to represent the procedural, data-driven process, and then code it with JS in a prototype
-- Use HTML, CSS, JS to create the final application
-- Design an identity for the project that communicates the theme or concept of the project
+- Describe how to use data to create generative processes in software, design, architecture, etc.
+- Compare outcomes of generative processes across disciplines.
+- Write pseudo code and build a prototype to plan and develop a web application.
+- Use HTML, CSS, Bootstrap, and JS build  final application.
+- Design an identity for the project that communicates a theme or concept
 
 </details>
 
@@ -42,13 +42,13 @@ Complete the following to prepare for this assignment. See [Resources](#resource
 ## About
 
 
-This assignment asks you to create a web page that can generate new iterations of itself based on input from the user, available data (e.g. time, location, etc.), or pure randomness.
+This assignment asks you to create a web page that can generate new iterations of itself based on some changeable data source. This could be input from the user, other available data (e.g. time, location, etc.), or pure randomness.
 
 <a href="assets/img/Generative_Design_Process-retouched.png"><img src="assets/img/Generative_Design_Process-retouched.png" align="right" width="450"></a>
 
-On one hand, almost all software and websites you interact with somehow generate an interface using information from a database and specific rules. Even boring shopping websites use cookies to identify and customize pages for users ([regardless who stands to benefit](https://www.justice.gov/opa/pr/amazon-marketplace-seller-pleads-guilty-price-fixing-dvds-and-blu-ray-discs)).
+Nearly every software or dynamic website generates their interfaces using data. Even a boring shopping website uses cookies to identify and customize pages for users ([regardless who stands to benefit](https://www.justice.gov/opa/pr/amazon-marketplace-seller-pleads-guilty-price-fixing-dvds-and-blu-ray-discs)).
 
-[Generative Design](https://en.wikipedia.org/wiki/Generative_design) is a related cultural trend that, similar to data-driven websites, uses coded rules and algorithms to create (and recreate) designs and concepts for architecture, objects, behaviors, animations, games, and much more. This diagram from the book, [Generative Design: Visualize, Program, and Create with JavaScript in p5.js](http://www.generative-gestaltung.de/) by Groß, Bohnacker, and Laub, shows how these processes can create new iterations, using varying degrees of input from the creator, in order to ideate or solve specific design or aesthetic issues. Regardless of your approach, your project should mimic these processes somehow, reflecting your own thinking on this subject.
+This process is evident in many other "design" contexts. For example, [Generative Design](https://en.wikipedia.org/wiki/Generative_design) is a related cultural trend that, similar to data-driven websites, uses coded rules and algorithms to create (and recreate) concepts and forms for architecture, objects, behaviors, animations, games, and much more. This diagram from, [Generative Design: Visualize, Program, and Create with JavaScript in p5.js](http://www.generative-gestaltung.de/) by Groß, Bohnacker, and Laub, shows how these processes can create new iterations, using varying degrees of input from the creator, to ideate or solve specific design or aesthetic problems. Regardless of your approach, your project should mimic or somehow find inspiration in these processes, to reflect your own thinking on the subject.
 
 
 
@@ -65,28 +65,27 @@ On one hand, almost all software and websites you interact with somehow generate
 
 #### Concept
 
-1. Develop a concept for your project. Consider:
-    1. Examples of generative works
-        - Articles: "[Generative Design Software Will Give Designers ‘Superpowers’](https://www.dezeen.com/2017/02/06/generative-design-software-will-give-designers-superpowers-autodesk-university/)", [video](https://www.youtube.com/watch?v=h7gq7OrbgxY) (2:18), "[How Will Generative Design Impact Architecture?](https://www.archdaily.com/937772/how-will-generative-design-impact-architecture)", and more from this [Random Article Generator](https://codepen.io/owenmundy/pen/PomvjqW?editors=1010)
-        - Critical Web Design / Radical Software [examples tagged with #generative or #remix](https://docs.google.com/spreadsheets/d/1mQ0doWT6tGXm2W-hB5zuz3I8mijGhLSkAe_XrcfMdok/edit#gid=0)
-        - https://0x72.itch.io/pixeldudesmaker (example of [sprite](https://raw.githubusercontent.com/omundy/sample-unity-animation/main/Assets/Sprite_Anim_Fred/Textures/fred-cinemachine-2.gif))
-    1. Potential sources for content
-        - [faker.js](https://www.npmjs.com/package/faker) and [hosted version](https://fakercloud.com/api), and [similar projects](https://awesomeopensource.com/projects/faker)
-1. Use Figma to create wireframe and design iterations for your project. Create a design for mobile and desktop, as well as the different stages of your app.
-
+1. Develop a concept for your project. Consider the above prompt, as well as [Examples of randomness](#examples-of-randomness) below.
+1. Use [Figma](https://figma.com) to create a wireframe and design iterations for your project.
+    1. Show the different stages of the user experience or how your app changes depending on the content.
+    1. Start with desktop design, then create the mobile layout once you have made a few iterations.
+1. Use Figma to diagram any data transformations or flowcharts as needed.
 
 
 #### Code
 
+1. Begin the code portion by writing out the pseudocode for your project. [See this activity for practice](https://github.com/omundy/learn-computing/blob/main/topics-computational-thinking.md#pseudocode). Save the pseudocode in a comment in your Javascript.
 1. Use HTML, CSS, and JS to code your design inside `index.html`
 1. Use Javascript variables, conditional logic, loops, etc. to somehow change the page every time it loads.
 1. Use images, other media, or code libraries as needed.
 
+
 #### Publish
+
 1. [Save and refresh](https://github.com/omundy/learn-computing/blob/main/topics-keyboard-shortcuts.md#web-development-edit-save-refresh-loop) your work in the browser often to see your changes.
 1. Commit changes regularly.
 1. Confirm valid [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/) <sup>([?](https://github.com/omundy/dig245-critical-web-design/blob/main/reference-sheets/css.md#css-validation))</sup>
-1. When finished, [push, publish, and post your project](https://docs.google.com/document/d/17U_zmzM_eML_qkG0PaOdDRcEk3YEmbiQ1TyNnbAM08k/edit#bookmark=id.8jryplv1i8a)
+1. When finished, [push, publish, and post your project](https://docs.google.com/document/d/17U_zmzM_eML_qkG0PaOdDRcEk3YEmbiQ1TyNnbAM08k/edit#bookmark=id.8jryplv1i8a). Make sure to include a link to your Figma designs in the Moodle post.
 
 
 
@@ -105,6 +104,49 @@ Points | Category | Description
 
 </details>
 
+
+
+
+
+
+
+
+
+
+## Examples of randomness
+
+
+
+### Example works
+
+- Chris Baker, Mike Lacher, and Richard Baker [Troll the NSA](http://ilovechrisbaker.com/troll-the-nsa/) (2013)
+- Rafaël Rozendaal [Abstract Browsing](http://www.abstractbrowsing.net) (2014)
+- Colleen Josephson and Kyle Miller [endless.horse](http://endless.horse) (2015)
+- Mark Sample [Two Moji](http://fugitivetexts.net/twomoji) (2018)
+- Tero Parviainen [How Generative Music Works](https://teropa.info/loop/)
+- Dan Kurtz [Binky](https://www.binky.rocks/) (2017)
+- Kevan Davis [eBay Feedback Generator](http://thesurrealist.co.uk/feedback) (2005)
+- Ben Grosser [Scaremail](https://bengrosser.com/projects/scaremail/)
+- 0x72 [pixeldudesmaker](https://0x72.itch.io/pixeldudesmaker) (example of [sprite](https://raw.githubusercontent.com/omundy/sample-unity-animation/main/Assets/Sprite_Anim_Fred/Textures/fred-cinemachine-2.gif))
+- Other Critical Web Design / Radical Software [examples tagged with #generative or #remix](https://docs.google.com/spreadsheets/d/1mQ0doWT6tGXm2W-hB5zuz3I8mijGhLSkAe_XrcfMdok/edit#gid=0)
+
+
+
+### Articles
+
+- "[Generative Design Software Will Give Designers ‘Superpowers’](https://www.dezeen.com/2017/02/06/generative-design-software-will-give-designers-superpowers-autodesk-university/)", [video](https://www.youtube.com/watch?v=h7gq7OrbgxY) (2:18),
+- "[How Will Generative Design Impact Architecture?](https://www.archdaily.com/937772/how-will-generative-design-impact-architecture)"
+- and more from this [Random Article Generator](https://codepen.io/owenmundy/pen/PomvjqW?editors=1010)
+
+
+
+### Sources for content
+
+- [faker.js](https://www.npmjs.com/package/faker) and [hosted version](https://fakercloud.com/api), and [similar projects](https://awesomeopensource.com/projects/faker)
+- [public-apis](https://github.com/public-apis/public-apis), [apilist.fun](https://apilist.fun/), and [No Auth APIs](https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/) - free APIs for software and web development. For example:
+    - [Cat Facts](https://alexwohlbruck.github.io/cat-facts/)
+    - [Free IP Geolocation API](https://freegeoip.app/json/)
+    - [Random User](https://randomuser.me/api/)
 
 
 
