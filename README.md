@@ -128,6 +128,11 @@ Points | Category | Description
 - Kevan Davis [eBay Feedback Generator](http://thesurrealist.co.uk/feedback) (2005)
 - Ben Grosser [Scaremail](https://bengrosser.com/projects/scaremail/)
 - 0x72 [pixeldudesmaker](https://0x72.itch.io/pixeldudesmaker) (example of [sprite](https://raw.githubusercontent.com/omundy/sample-unity-animation/main/Assets/Sprite_Anim_Fred/Textures/fred-cinemachine-2.gif))
+- [eBay Feedback Generator](https://thesurrealist.co.uk/feedback) (2005)
+- [Hacker Simulator](https://hacker-simulator.com/)
+- [itadakimasu.app/](https://itadakimasu.app/)
+- [Tarot-o-bot](https://tarotobot-reboot.illo.tv/) (2019)
+- Hartmut Bohnacker [Site Shaker](https://hartmut-bohnacker.de/projects/site-shaker) (2018)
 - Other Critical Web Design / Radical Software [examples tagged with #generative or #remix](https://docs.google.com/spreadsheets/d/1mQ0doWT6tGXm2W-hB5zuz3I8mijGhLSkAe_XrcfMdok/edit#gid=0)
 
 
@@ -147,6 +152,17 @@ Points | Category | Description
     - [Cat Facts](https://alexwohlbruck.github.io/cat-facts/)
     - [Free IP Geolocation API](https://freegeoip.app/json/)
     - [Random User](https://randomuser.me/api/)
+
+
+
+### Examples from class that use randomness
+
+- codepen.io [Random Article Generator](https://codepen.io/owenmundy/pen/PomvjqW)
+- https://github.com/omundy/learn-javascript/search?q=.random
+- Also see, Data Culture: Randomness Activity
+
+
+
 
 
 
