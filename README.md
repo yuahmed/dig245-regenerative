@@ -9,6 +9,18 @@ Create a dynamic web page that uses data to change its presentation
 
 
 
+## Introduction
+
+This assignment asks you to create a web page that can generate new iterations of itself based on some changeable data source. This could be input from the user, other available data (e.g. time, location, etc.), or pure randomness.
+
+<a href="assets/img/Generative_Design_Process-retouched.png"><img src="assets/img/Generative_Design_Process-retouched.png" align="right" width="450"></a>
+
+Nearly every software or dynamic website generates their interfaces using data. Even a boring shopping website uses cookies to identify and customize pages for users ([regardless who stands to benefit](https://www.justice.gov/opa/pr/amazon-marketplace-seller-pleads-guilty-price-fixing-dvds-and-blu-ray-discs)).
+
+This process is evident in many other "design" contexts. For example, [Generative Design](https://en.wikipedia.org/wiki/Generative_design) is a related cultural trend that, similar to data-driven websites, uses coded rules and algorithms to create (and recreate) concepts and forms for architecture, objects, behaviors, animations, games, and much more. This diagram from, [Generative Design: Visualize, Program, and Create with JavaScript in p5.js](http://www.generative-gestaltung.de/) by Groß, Bohnacker, and Laub, shows how these processes can create new iterations, using varying degrees of input from the creator, to ideate or solve specific design or aesthetic problems. Regardless of your approach, your project should mimic or somehow find inspiration in these processes, to reflect your own thinking on the subject.
+
+
+
 <details>
 <summary>Learning Objectives</summary>
 
@@ -39,31 +51,21 @@ Complete the following to prepare for this assignment. See [Resources](#resource
 
 
 
-## About
-
-
-This assignment asks you to create a web page that can generate new iterations of itself based on some changeable data source. This could be input from the user, other available data (e.g. time, location, etc.), or pure randomness.
-
-<a href="assets/img/Generative_Design_Process-retouched.png"><img src="assets/img/Generative_Design_Process-retouched.png" align="right" width="450"></a>
-
-Nearly every software or dynamic website generates their interfaces using data. Even a boring shopping website uses cookies to identify and customize pages for users ([regardless who stands to benefit](https://www.justice.gov/opa/pr/amazon-marketplace-seller-pleads-guilty-price-fixing-dvds-and-blu-ray-discs)).
-
-This process is evident in many other "design" contexts. For example, [Generative Design](https://en.wikipedia.org/wiki/Generative_design) is a related cultural trend that, similar to data-driven websites, uses coded rules and algorithms to create (and recreate) concepts and forms for architecture, objects, behaviors, animations, games, and much more. This diagram from, [Generative Design: Visualize, Program, and Create with JavaScript in p5.js](http://www.generative-gestaltung.de/) by Groß, Bohnacker, and Laub, shows how these processes can create new iterations, using varying degrees of input from the creator, to ideate or solve specific design or aesthetic problems. Regardless of your approach, your project should mimic or somehow find inspiration in these processes, to reflect your own thinking on the subject.
 
 
 
 
 
 
+## Assigment
 
 
+### Setup
 
-## Instructions
-
-1. Fork this repository and clone it to your `critical-web-design` folder on your machine.
+[Fork](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.gad119073e1_0_6) this repository and [clone](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.g9930d559e8_0_0) it to the `critical-web-design` folder on your machine.
 
 
-#### Concept
+### Concept
 
 1. Develop a concept for your project. Consider the above prompt, as well as [Examples of randomness](#examples-of-randomness) below.
 1. Use [Figma](https://figma.com) to create a wireframe and design iterations for your project.
@@ -72,7 +74,7 @@ This process is evident in many other "design" contexts. For example, [Generativ
 1. Use Figma to diagram any data transformations or flowcharts as needed.
 
 
-#### Code
+### Code
 
 1. Begin the code portion by writing out the pseudocode for your project. [See this activity for practice](https://github.com/omundy/learn-computing/blob/main/topics-computational-thinking.md#pseudocode). Save the pseudocode in a comment in your Javascript.
 1. Use HTML, CSS, and JS to code your design inside `index.html`
@@ -80,11 +82,11 @@ This process is evident in many other "design" contexts. For example, [Generativ
 1. Use images, other media, or code libraries as needed.
 
 
-#### Publish
+### Publish
 
 1. [Save and refresh](https://github.com/omundy/learn-computing/blob/main/topics-keyboard-shortcuts.md#web-development-edit-save-refresh-loop) your work in the browser often to see your changes.
 1. Commit changes regularly.
-1. Confirm valid [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/) <sup>([?](https://github.com/omundy/dig245-critical-web-design/blob/main/reference-sheets/css.md#css-validation))</sup>
+1. Confirm valid [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/) <sup>([?](https://github.com/omundy/dig245-critical-web-design/blob/main/topics/html-css/css.md#css-validation))</sup>
 1. When finished, [push, publish, and post your project](https://docs.google.com/document/d/17U_zmzM_eML_qkG0PaOdDRcEk3YEmbiQ1TyNnbAM08k/edit#bookmark=id.8jryplv1i8a). Make sure to include a link to your Figma designs in the Moodle post.
 
 
@@ -113,11 +115,11 @@ Points | Category | Description
 
 
 
-## Examples of randomness
+## Randomness Examples
 
 
 
-### Example works
+### Art | Design | Culture
 
 - Chris Baker, Mike Lacher, and Richard Baker [Troll the NSA](http://ilovechrisbaker.com/troll-the-nsa/) (2013)
 - Rafaël Rozendaal [Abstract Browsing](http://www.abstractbrowsing.net) (2014)
@@ -155,7 +157,7 @@ Points | Category | Description
 
 
 
-### Examples from class that use randomness
+### Class Demos
 
 - codepen.io [Random Article Generator](https://codepen.io/owenmundy/pen/PomvjqW)
 - https://github.com/omundy/learn-javascript/search?q=.random
@@ -168,4 +170,4 @@ Points | Category | Description
 
 ## Resources
 
-- Course references [HTML](https://github.com/omundy/dig245-critical-web-design/blob/main/reference-sheets/html.md), [CSS](https://github.com/omundy/dig245-critical-web-design/blob/main/reference-sheets/css.md), and [JS](https://github.com/omundy/dig245-critical-web-design/blob/main/reference-sheets/javascript.md)
+- Course references [HTML](https://github.com/omundy/dig245-critical-web-design/blob/main/topics/html-css/html.md), [CSS](https://github.com/omundy/dig245-critical-web-design/blob/main/topics/html-css/css.md), and [JS](https://github.com/omundy/dig245-critical-web-design/blob/main/topics/javascript/javascript.md)
