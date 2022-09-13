@@ -48,7 +48,12 @@ Complete the following to prepare for this assignment. See [Resources](#resource
 
 </details>
 
+<details>
+<summary>Rubric</summary>
 
+See Moodle.
+
+</details>
 
 
 
@@ -90,21 +95,6 @@ Complete the following to prepare for this assignment. See [Resources](#resource
 1. When finished, [push, publish, and post your project](https://docs.google.com/document/d/17U_zmzM_eML_qkG0PaOdDRcEk3YEmbiQ1TyNnbAM08k/edit#bookmark=id.8jryplv1i8a). Make sure to include a link to your Figma designs in the Moodle post.
 
 
-
-
-<details>
-<summary>Grading</summary>
-
-Points | Category | Description
----: | --- | ---
-4 | Concept | Idea is original and evokes deeper thinking on the subject.
-4 | Design | Overall quality and use of design principles; Graphics are consistent, layout displays clear information hierarchy
-4 | Execution | Concept and design is well-executed, is usable, and functions as intended
-4 | Instructions | Project is online, accessible, and linked from Moodle by the deadline
-4 | Validation | Valid HTML and CSS
-20 | Total |
-
-</details>
 
 
 
