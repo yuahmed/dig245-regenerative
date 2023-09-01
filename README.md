@@ -1,8 +1,6 @@
 
 # Regenerative
 
-Create a dynamic web page that uses data to change its presentation
-
 ![numbers](assets/img/regenerative.png)
 
 <sup>Images (from left): [Generative Splines](https://www.behance.net/gallery/40247813/Generative-Splines) Hyper Glu; [Arc Bicycle](https://www.futura-sciences.com/tech/actualites/imprimante-3d-arc-bicycle-decouvrez-premier-velo-imprime-3d-soudage-91153/) Delft University of Technology (2016); [The Sherwin Series](https://joelledietrick.com/site/sherwin) Joelle Dietrick (2011); [Heydar Aliyev Centre](https://www.zaha-hadid.com/architecture/heydar-aliyev-centre/) Zaha Hadid (2012) </sup>
@@ -50,9 +48,7 @@ Complete the following to prepare for this assignment. See [Resources](#resource
 
 <details>
 <summary>Rubric</summary>
-
 See Moodle.
-
 </details>
 
 
@@ -62,15 +58,12 @@ See Moodle.
 
 
 
-## Assigment
+## Setup
+
+[Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository) this repository and [clone](https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository) it to your machine.
 
 
-### Setup
-
-[Fork](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.gad119073e1_0_6) this repository and [clone](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.g9930d559e8_0_0) it to the `critical-web-design` folder on your machine.
-
-
-### Concept
+## Design
 
 1. Develop a concept for your project. Consider the above prompt, as well as [Examples of randomness](#examples-of-randomness) below.
 1. Use [Figma](https://figma.com) to create a wireframe and design iterations for your project.
@@ -79,7 +72,7 @@ See Moodle.
 1. Use Figma to diagram any data transformations or flowcharts as needed.
 
 
-### Code
+## Code
 
 1. Begin the code portion by writing out the pseudocode for your project. [See this activity for practice](https://github.com/omundy/learn-computing/blob/main/topics-computational-thinking.md#pseudocode). Save the pseudocode in a comment in your Javascript.
 1. Use HTML, CSS, and JS to code your design inside `index.html`
@@ -87,12 +80,12 @@ See Moodle.
 1. Use images, other media, or code libraries as needed.
 
 
-### Publish
+## Publish
 
-1. [Save and refresh](https://github.com/omundy/learn-computing/blob/main/topics-keyboard-shortcuts.md#web-development-edit-save-refresh-loop) your work in the browser often to see your changes.
+1. [Save and refresh](https://github.com/omundy/learn-computing/blob/main/topics/keyboard-shortcuts.md#web-development-edit-save-refresh-loop) your work in the browser often to see your changes.
 1. Commit changes regularly.
 1. Confirm valid [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/) <sup>([?](https://github.com/omundy/dig245-critical-web-design/blob/main/topics/html-css/css.md#css-validation))</sup>
-1. When finished, [push, publish, and post your project](https://docs.google.com/document/d/17U_zmzM_eML_qkG0PaOdDRcEk3YEmbiQ1TyNnbAM08k/edit#bookmark=id.8jryplv1i8a). Make sure to include a link to your Figma designs in the Moodle post.
+1. When finished, push, publish, and post all deliverables to Moodle per documentation in the Assignments.
 
 
 
@@ -161,3 +154,4 @@ See Moodle.
 ## Resources
 
 - Course references [HTML](https://github.com/omundy/dig245-critical-web-design/blob/main/topics/html-css/html.md), [CSS](https://github.com/omundy/dig245-critical-web-design/blob/main/topics/html-css/css.md), and [JS](https://github.com/omundy/dig245-critical-web-design/blob/main/topics/javascript/javascript.md)
+- [Mozilla Developer Guide](https://developer.mozilla.org/en-US/docs/Web/Guide)
