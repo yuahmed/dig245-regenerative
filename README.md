@@ -65,16 +65,14 @@ See Moodle.
 
 ## Design
 
-1. Develop a concept for your project. Consider the above prompt, as well as [Examples of randomness](#examples-of-randomness) below.
-1. Use [Figma](https://figma.com) to create a wireframe and design iterations for your project.
-    1. Show the different stages of the user experience or how your app changes depending on the content.
-    1. Start with desktop design, then create the mobile layout once you have made a few iterations.
-1. Use Figma to diagram any data transformations or flowcharts as needed.
+1. Develop a concept for your project. Consider the above prompt, as well as [Examples of randomness](#inspiration) below.
+1. Use [Figma](https://figma.com) to create a wireframe and design iterations for your project. Start with desktop design, then create the mobile layout once you have made a few iterations. 
+1. Use Figma to diagram any data transformations or flowcharts as needed. Show the different stages of the user experience or how your app changes depending on the content.
 
 
 ## Code
 
-1. Begin the code portion by writing out the pseudocode for your project. [See this activity for practice](https://github.com/omundy/learn-computing/blob/main/topics-computational-thinking.md#pseudocode). Save the pseudocode in a comment in your Javascript.
+1. Begin the code portion by writing out the pseudocode for your project. [See this activity for practice](https://github.com/omundy/learn-computing/blob/main/topics/computational-thinking.md#pseudocode). Save the pseudocode in a comment in your Javascript.
 1. Use HTML, CSS, and JS to code your design inside `index.html`
 1. Use Javascript variables, conditional logic, loops, etc. to somehow change the page every time it loads.
 1. Use images, other media, or code libraries as needed.
@@ -98,7 +96,7 @@ See Moodle.
 
 
 
-## Randomness Examples
+## Inspiration
 
 
 
@@ -133,10 +131,7 @@ See Moodle.
 ### Sources for content
 
 - [faker.js](https://www.npmjs.com/package/faker) and [hosted version](https://fakercloud.com/api), and [similar projects](https://awesomeopensource.com/projects/faker)
-- [public-apis](https://github.com/public-apis/public-apis), [apilist.fun](https://apilist.fun/), and [No Auth APIs](https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/) - free APIs for software and web development. For example:
-    - [Cat Facts](https://alexwohlbruck.github.io/cat-facts/)
-    - [Free IP Geolocation API](https://freegeoip.app/json/)
-    - [Random User](https://randomuser.me/api/)
+- [public-apis](https://github.com/public-apis/public-apis), [apilist.fun](https://apilist.fun/), and [No Auth APIs](https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/) - free APIs for software and web development. For example: [Cat Facts](https://alexwohlbruck.github.io/cat-facts/), [Free IP Geolocation API](https://freegeoip.app/json/), [Random User](https://randomuser.me/api/)
 
 
 
