@@ -55,7 +55,10 @@ See Moodle.
 
 
 
+## Context
 
+- 📚 "Generative Design" (chapter 8) in Critical Web Design
+    - Chapter example(s): TBD
 
 
 ## Setup
@@ -96,9 +99,9 @@ See Moodle.
 
 
 
-## Inspiration
+## Examples of Randomness
 
-- 📚 "Generative Design" (chapter 8) in Critical Web Design
+
 
 
 ### Art | Design | Culture
