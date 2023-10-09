@@ -154,3 +154,23 @@ See Moodle.
 
 - Course resources [HTML](https://github.com/omundy/dig245-critical-web-design/blob/main/topics/html-css/html.md), [CSS](https://github.com/omundy/dig245-critical-web-design/blob/main/topics/html-css/css.md), [JS](https://github.com/omundy/dig245-critical-web-design/blob/main/topics/javascript/javascript.md), [Figma](https://github.com/omundy/dig245-critical-web-design#figma), [Bootstrap](https://github.com/omundy/dig245-critical-web-design#bootstrap)
 - [Mozilla Developer Guides](https://developer.mozilla.org/en-US/docs/Web/Guide)
+
+
+
+
+<details>
+<summary>Past examples</summary>
+  
+- 2021
+    [Annelise](https://anclaire.github.io/dig245-regenerative)
+    [Drew](https://drdibble.github.io/dig245-regenerative)
+    [Erina](https://erlee1.github.io/dig245-regenerative)
+    [Emma](https://emmelton.github.io/dig245-regenerative)
+    [Meng](https://mengfw-02.github.io/dig245-regenerative/)
+    [Maurillio](https://maurilio-saddoud.github.io/dig245-regenerative)
+    [Henry](https://hehowell.github.io/Random-Dessert-Selector)
+    [Caroline](https://casigl.github.io/dig245-regenerative)
+    [Anh](https://anhhoang1402.github.io/dig245-regenerative)
+
+
+</details>
