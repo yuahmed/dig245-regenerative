@@ -171,6 +171,11 @@ See Moodle.
     [Henry](https://hehowell.github.io/Random-Dessert-Selector)
     [Caroline](https://casigl.github.io/dig245-regenerative)
     [Anh](https://anhhoang1402.github.io/dig245-regenerative)
+- Past
+    Henken [String Art Generator]
+    Hollen [Game Boy]
+    Garcia [Washing Machine]
+    Bartroli [Band Name Generator]
 
 
 </details>
