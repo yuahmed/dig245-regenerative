@@ -1,2 +1,59 @@
-
 /* css */
+body {
+  background-color: #f7fcc1;
+}
+
+.prompt {
+  margin-top: 3rem;
+}
+
+#result {
+  margin-top: 5rem;
+  display: none;
+}
+
+h2,
+h4,
+.andIam,
+.title {
+  font-family: "MTF Gridie", sans-serif;
+}
+
+.nestgrid {
+  margin-top: 1.5rem;
+}
+
+.title {
+  font-size: 5rem;
+}
+
+.resultbox {
+  font-family: "Courier New", Courier, monospace;
+}
+
+#resultText,
+.fixtext,
+.btn {
+  display: inline;
+}
+
+#GenBtn {
+  margin-top: 5rem;
+}
+
+button:disabled {
+  opacity: 50%;
+  background-color: #a6763e;
+  border: none;
+  border-radius: 1rem;
+  color: white;
+  padding: 15px 32px;
+}
+
+button:enabled {
+  background-color: #a6763e;
+  border: none;
+  border-radius: 1rem;
+  color: white;
+  padding: 15px 32px;
+}
