@@ -76,6 +76,8 @@ const atPentagon = [
   "give a humorous and imaginative tour to imaginary people or fellow visitors. You can create an entertaining narrative about the Pentagon's history and secrets while adding a touch of humor and absurdity to make it fun.",
 ];
 
+const HomeImg = ["url(assets/img/homeOne.jpg)", "url(assets/img/homeThree.jpg)", "url(assets/img/homeTwo.jpg)"]
+
 // const allActivities = [general, atHome, atPark, atParty, atPentagon, atStonehenge];
 
 btn.addEventListener("click", () => change());
@@ -85,6 +87,7 @@ function change() {
   let res = document.getElementById("resultText");
   let loc = place.value;
   let feel = feeling.value;
+  let bg = document.getElementById("bg");
 
   var activity = "";
 
@@ -93,11 +96,16 @@ function change() {
   // 2 PARK
   // 3 STONEHENGE
   // 4 A PARTY
+  
+  const bgSize = window.innerWidth + "px " + window.innerHeight + "px" ;
 
   if (loc == 0) {
     activity =
       atHome[Math.floor(Math.random() * 6)] ||
       general[Math.floor(Math.random() * 6)];
+      bg.style.backgroundSize = bgSize;
+      bg.style.backgroundImage = HomeImg[Math.floor(Math.random() * 3)];
+      bg.style.opacity = "50%r";
   } else if (loc == 1) {
     activity =
       atPentagon[Math.floor(Math.random() * 6)] ||

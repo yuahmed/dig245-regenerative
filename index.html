@@ -1,92 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- meta tags, links to css, etc. -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Generative Design</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
-      crossorigin="anonymous"
-    />
-    <link href="https://fonts.cdnfonts.com/css/mtf-gridie" rel="stylesheet" />
-    <link rel="stylesheet" href="assets/css/styles.css" />
-  </head>
 
-  <body>
-    <div class="container">
-      <div class="row prompt">
-        <div class="col-12 d-flex flex-column align-items-center">
-          <div class="title"> 
-            I'm bored.
+<head>
+  <!-- meta tags, links to css, etc. -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Generative Design</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+  <link href="https://fonts.cdnfonts.com/css/mtf-gridie" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body id="bg">
+  <div class="container">
+    <div class="row prompt">
+      <div class="col-3"></div>
+      <div class="col-6 d-flex flex-column align-items-center text-bg-light">
+        <div class="title">
+          I'm bored.
+        </div>
+        <br>
+        <h3 class="andIam">And, I am...</h3>
+
+        <div class="row"> <!-- nested grid-->
+          <div class="col-12">
+
+            <!-- FEELING  -->
+            <form class="btn" action="#">
+              <label for="feeling">
+                <h4>feeling:</h4>
+              </label>
+              <select name="feeling" id="feel" class="btn btn-light">
+                <option disabled="" selected="" value="">Select</option>
+                <option value="0">happy</option>
+                <option value="1">sad</option>
+                <option value="2">angry</option>
+                <option value="3">hungry</option>
+                <option value="4">tired</option>
+              </select>
+            </form>
+
+            <!-- AT -->
+            <form class="btn" action="#">
+              <label for="where">
+                <h4>at:</h4>
+              </label>
+              <select name="where" id="location" class="btn btn-light">
+                <option disabled="" selected="" value="">Select</option>
+                <option value="0">home</option>
+                <option value="1">the Pentagon</option>
+                <option value="2">the park</option>
+                <option value="3">Stonehenge</option>
+                <option value="4">a party</option>
+              </select>
+            </form>
+
+            <!-- WITH -->
+            <form class="btn" action="#">
+              <label for="with">
+                <h4>with:</h4>
+              </label>
+              <select name="with" id="partner" class="btn btn-light">
+                <option disabled="" selected="" value="">Select</option>
+                <option value="0">nobody</option>
+                <option value="1">a friend</option>
+                <option value="2">my pet</option>
+                <option value="3">a stranger</option>
+                <option value="4">the president</option>
+              </select>
+            </form>
           </div>
-          <br>
-          <h3 class="andIam">And, I am...</h3>
-
-          <div class="row"> <!-- nested grid-->
-            <div class="col-12">
-
-              <!-- FEELING  -->
-              <form class="btn" action="#">
-                <label for="feeling"><h4>feeling:</h4></label>
-                <select name="feeling" id="feel" class="btn btn-light">
-                  <option disabled="" selected="" value="">Select</option>
-                  <option value="0">happy</option>
-                  <option value="1">sad</option>
-                  <option value="2">angry</option>
-                  <option value="3">hungry</option>
-                  <option value="4">tired</option>
-                </select>
-              </form>
-
-              <!-- AT -->
-              <form class="btn" action="#">
-                <label for="where"><h4>at:</h4></label>
-                <select name="where" id="location" class="btn btn-light">
-                  <option disabled="" selected="" value="">Select</option>
-                  <option value="0">home</option>
-                  <option value="1">the Pentagon</option>
-                  <option value="2">the park</option>
-                  <option value="3">Stonehenge</option>
-                  <option value="4">a party</option>
-                </select>
-              </form>
-
-              <!-- WITH -->
-              <form class="btn" action="#">
-                <label for="with"><h4>with:</h4></label>
-                <select name="with" id="partner" class="btn btn-light">
-                  <option disabled="" selected="" value="">Select</option>
-                  <option value="0">nobody</option>
-                  <option value="1">a friend</option>
-                  <option value="2">my pet</option>
-                  <option value="3">a stranger</option>
-                  <option value="4">the president</option>
-                </select>
-              </form>
-            </div>
-          </div>
-
           <!-- SUBMIT BUTTON  -->
-          <button type="button" id="GenBtn" disabled><h2>What shall I do?</h2></button>
+          <button type="button" id="GenBtn" disabled>
+            <h2>What shall I do?</h2>
+          </button>
         </div>
+
+
+      </div>
+      <div class="col-3"></div>
+    </div>
+  </div>
+  </div>
+
+  <div class="row" id="result">
+    <div class="col-12 text-center">
+      <div class="resultbox text-bg-light">
+        <h3>
+          You should
+          <div id="resultText">...</div>
+        </h3>
       </div>
     </div>
+  </div>
 
-    <div class="row" id = "result">
-      <div class="col-12 text-center">
-        <div class="resultbox">
-          <h3>
-            You should
-            <div id="resultText">...</div>
-          </h3>
-        </div>
-      </div>
-    </div>
+  <!-- load javascript after the page elements render -->
+  <script src="assets/js/main.js"></script>
+</body>
 
-    <!-- load javascript after the page elements render -->
-    <script src="assets/js/main.js"></script>
-  </body>
 </html>

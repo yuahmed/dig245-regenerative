@@ -40,7 +40,9 @@ h4,
 #GenBtn {
   margin-top: 5rem;
 }
-
+.text-bg-light{
+  border-radius: 1rem;
+}
 button:disabled {
   opacity: 50%;
   background-color: #a6763e;
