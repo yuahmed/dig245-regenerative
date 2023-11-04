@@ -5,6 +5,8 @@ let place = document.querySelector("#location");
 let feeling = document.querySelector("#feel");
 let partner = document.querySelector('#partner');
 
+const bgSize = window.innerWidth + "px " + window.innerHeight + "px" ;
+
 feeling.addEventListener("change", buttonStyle);
 place.addEventListener("change", buttonStyle);
 partner.addEventListener("change", buttonStyle);
@@ -77,6 +79,7 @@ const atPentagon = [
 ];
 
 const HomeImg = ["url(assets/img/homeOne.jpg)", "url(assets/img/homeThree.jpg)", "url(assets/img/homeTwo.jpg)"]
+const ParkImg = ["url(assets/img/parkOne.jpg)"]
 
 // const allActivities = [general, atHome, atPark, atParty, atPentagon, atStonehenge];
 
@@ -89,23 +92,22 @@ function change() {
   let feel = feeling.value;
   let bg = document.getElementById("bg");
 
-  var activity = "";
+  // var activity = "";
 
   // 0 HOME
   // 1 PENTAGON
   // 2 PARK
   // 3 STONEHENGE
   // 4 A PARTY
-  
-  const bgSize = window.innerWidth + "px " + window.innerHeight + "px" ;
 
   if (loc == 0) {
     activity =
       atHome[Math.floor(Math.random() * 6)] ||
       general[Math.floor(Math.random() * 6)];
+
       bg.style.backgroundSize = bgSize;
       bg.style.backgroundImage = HomeImg[Math.floor(Math.random() * 3)];
-      bg.style.opacity = "50%r";
+      //bg.style.opacity = "50%";
   } else if (loc == 1) {
     activity =
       atPentagon[Math.floor(Math.random() * 6)] ||
@@ -114,6 +116,10 @@ function change() {
     activity =
       atPark[Math.floor(Math.random() * 6)] ||
       general[Math.floor(Math.random() * 6)];
+
+      bg.style.backgroundSize = bgSize;
+      bg.style.backgroundImage = ParkImg[Math.floor(Math.random() * 1)];
+      //bg.style.opacity = "50%";
   } else if (loc == 3) {
     activity =
       atStonehenge[Math.floor(Math.random() * 6)] ||
