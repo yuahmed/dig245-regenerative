@@ -78,9 +78,21 @@ const atPentagon = [
   "give a humorous and imaginative tour to imaginary people or fellow visitors. You can create an entertaining narrative about the Pentagon's history and secrets while adding a touch of humor and absurdity to make it fun.",
 ];
 
-const HomeImg = ["url(assets/img/homeOne.jpg)", "url(assets/img/homeThree.jpg)", "url(assets/img/homeTwo.jpg)"]
-const ParkImg = ["url(assets/img/parkOne.jpg)"]
+const atSchool = [
+  "organize a mini-treasure hunt or scavenger hunt, setting up clues around the school. You can do this alone or with a friend.",
+  "have a creative writing session. Find a quiet spot, and write short stories, poems, or journal entries.",
+  "start a photography project. Capture interesting and unique aspects of your school environment. You can either compete with your partner or share your photos online.",
+  "play a musical instrument in the school's music room or practice your singing in the empty auditorium.",
+  "find a book to read, and discuss it with your partner or invite other friends to join in. You can have in-depth conversations about the story and characters.",
+  "organize a film screening in a classroom. Watch a classic movie or a new release with friends or fellow film enthusiasts."
+];
 
+const HomeImg = ["url(assets/img/homeOne.jpg)", "url(assets/img/homeThree.jpg)", "url(assets/img/homeTwo.jpg)"];
+const ParkImg = ["url(assets/img/parkOne.jpg)", "url(assets/img/parkTwo.jpeg)", "url(assets/img/parkThree.jpeg)"];
+const PartyImg = ["url(assets/img/partyOne.gif)", "url(assets/img/partyTwo.jpeg)", "url(assets/img/partyThree.jpeg)"];
+const PentImg = ["url(assets/img/pentOne.jpg)" , "url(assets/img/pentTwo.jpeg)", "url(assets/img/pentThree.gif)"];
+const StoneImg = ["url(assets/img/stoneOne.jpeg)", "url(assets/img/stoneTwo.jpg)", "url(assets/img/stoneThree.jpeg)" ];
+const SchoolImg = ["url(assets/img/schoolOne.jpeg)", "url(assets/img/schoolTwo.jpeg)", "url(assets/img/schoolThree.jpeg)"];
 // const allActivities = [general, atHome, atPark, atParty, atPentagon, atStonehenge];
 
 btn.addEventListener("click", () => change());
@@ -105,36 +117,48 @@ function change() {
       atHome[Math.floor(Math.random() * 6)] ||
       general[Math.floor(Math.random() * 6)];
 
-      bg.style.backgroundSize = bgSize;
       bg.style.backgroundImage = HomeImg[Math.floor(Math.random() * 3)];
+      bg.style.backgroundSize = bgSize;
       //bg.style.opacity = "50%";
   } else if (loc == 1) {
     activity =
       atPentagon[Math.floor(Math.random() * 6)] ||
       general[Math.floor(Math.random() * 6)];
+
+      bg.style.backgroundImage = PentImg[Math.floor(Math.random() * 3)];
+      bg.style.backgroundSize = bgSize;
   } else if (loc == 2) {
     activity =
       atPark[Math.floor(Math.random() * 6)] ||
       general[Math.floor(Math.random() * 6)];
 
-      bg.style.backgroundSize = bgSize;
-      bg.style.backgroundImage = ParkImg[Math.floor(Math.random() * 1)];
+      bg.style.backgroundImage = ParkImg[Math.floor(Math.random() * 3)];
+      bg.style.backgroundSize = cover;
       //bg.style.opacity = "50%";
   } else if (loc == 3) {
     activity =
       atStonehenge[Math.floor(Math.random() * 6)] ||
       general[Math.floor(Math.random() * 6)];
+
+      bg.style.backgroundImage = StoneImg[Math.floor(Math.random() * 3)];
+      bg.style.backgroundSize = cover;
   } else if (loc == 4) {
     activity =
       atParty[Math.floor(Math.random() * 6)] ||
       general[Math.floor(Math.random() * 6)];
+
+      bg.style.backgroundImage = PartyImg[Math.floor(Math.random() * 3)];
+      bg.style.backgroundSize = cover;
+  }else{
+    activity=
+    atSchool[Math.floor(Math.random() * 6)] ||
+    general[Math.floor(Math.random() * 6)];
+
+    bg.style.backgroundImage = SchoolImg[Math.floor(Math.random() * 3)];
+    bg.style.backgroundSize = bgSize;
   }
 
-  //0 HAPPY
-  //1 SAD
-  //2 ANGRY
-  //3 HUNGRY
-  //4 TIRED
+  //0 HAPPY   //1 SAD  //2 ANGRY  //3 HUNGRY  //4 TIRED
 
   if (feel == 1) {
     activity = activity + "\n Hopefully, you will feel much better after this!";
@@ -146,7 +170,6 @@ function change() {
     activity = activity + "\n Though, taking a quick nap would be great too!";
   }
 
-  //   const activity = allActivities[Math.floor(Math.random() * 6)] [Math.floor(Math.random() * 6)];
   resultbox.style.display = "block";
   res.innerText = activity;
 }
