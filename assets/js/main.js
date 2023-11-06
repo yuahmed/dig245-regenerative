@@ -3,25 +3,22 @@ let btn = document.getElementById("GenBtn");
 
 let place = document.querySelector("#location");
 let feeling = document.querySelector("#feel");
-let partner = document.querySelector('#partner');
+let partner = document.querySelector("#partner");
+let bg = document.getElementById("bg");
 
-const bgSize = window.innerWidth + "px " + window.innerHeight + "px" ;
+const bgSize = window.innerWidth + "px " + window.innerHeight + "px";
+bg.style.backgroundSize = bgSize;
 
 feeling.addEventListener("change", buttonStyle);
 place.addEventListener("change", buttonStyle);
 partner.addEventListener("change", buttonStyle);
 
-function buttonStyle(){
-    if (
-        feeling.value === "" ||
-        place.value === "" ||
-        partner.value === ""
-      ) {
-        btn.disabled = true;
-      } else {
-        btn.disabled = false;
-      }
-      
+function buttonStyle() {
+  if (feeling.value === "" || place.value === "" || partner.value === "") {
+    btn.disabled = true;
+  } else {
+    btn.disabled = false;
+  }
 }
 
 const general = [
@@ -57,7 +54,7 @@ const atStonehenge = [
   "practice yoga or meditation at Stonehenge, harnessing the ancient energy of the site to find your inner zen.",
   "crank up some music on your headphones and have a dance party among the stones. It's a great way to liven up the atmosphere.",
   "appreciate Stonehenge's beauty during sunset, when the light casts a warm and mesmerizing glow on the ancient stones.",
-  "Fashion a makeshift time capsule using items you have with you. Bury it near Stonehenge make a note to return and unearth it in the future for a delightful surprise.",
+  "fashion a makeshift time capsule using items you have with you. Bury it near Stonehenge make a note to return and unearth it in the future for a delightful surprise.",
 ];
 
 const atPark = [
@@ -84,16 +81,39 @@ const atSchool = [
   "start a photography project. Capture interesting and unique aspects of your school environment. You can either compete with your partner or share your photos online.",
   "play a musical instrument in the school's music room or practice your singing in the empty auditorium.",
   "find a book to read, and discuss it with your partner or invite other friends to join in. You can have in-depth conversations about the story and characters.",
-  "organize a film screening in a classroom. Watch a classic movie or a new release with friends or fellow film enthusiasts."
+  "organize a film screening in a classroom. Watch a classic movie or a new release with friends or fellow film enthusiasts.",
 ];
 
-const HomeImg = ["url(assets/img/homeOne.jpg)", "url(assets/img/homeThree.jpg)", "url(assets/img/homeTwo.jpg)"];
-const ParkImg = ["url(assets/img/parkOne.jpg)", "url(assets/img/parkTwo.jpeg)", "url(assets/img/parkThree.jpeg)"];
-const PartyImg = ["url(assets/img/partyOne.gif)", "url(assets/img/partyTwo.jpeg)", "url(assets/img/partyThree.jpeg)"];
-const PentImg = ["url(assets/img/pentOne.jpg)" , "url(assets/img/pentTwo.jpeg)", "url(assets/img/pentThree.gif)"];
-const StoneImg = ["url(assets/img/stoneOne.jpeg)", "url(assets/img/stoneTwo.jpg)", "url(assets/img/stoneThree.jpeg)" ];
-const SchoolImg = ["url(assets/img/schoolOne.jpeg)", "url(assets/img/schoolTwo.jpeg)", "url(assets/img/schoolThree.jpeg)"];
-// const allActivities = [general, atHome, atPark, atParty, atPentagon, atStonehenge];
+const HomeImg = [
+  "url(assets/img/homeOne.jpg)",
+  "url(assets/img/homeThree.jpg)",
+  "url(assets/img/homeTwo.jpg)",
+];
+const ParkImg = [
+  "url(assets/img/parkOne.jpg)",
+  "url(assets/img/parkTwo.jpeg)",
+  "url(assets/img/parkThree.jpeg)",
+];
+const PartyImg = [
+  "url(assets/img/partyOne.gif)",
+  "url(assets/img/partyTwo.jpeg)",
+  "url(assets/img/partyThree.jpeg)",
+];
+const PentImg = [
+  "url(assets/img/pentOne.jpg)",
+  "url(assets/img/pentTwo.jpeg)",
+  "url(assets/img/pentThree.gif)",
+];
+const StoneImg = [
+  "url(assets/img/stoneOne.jpeg)",
+  "url(assets/img/stoneTwo.jpg)",
+  "url(assets/img/stoneThree.jpeg)",
+];
+const SchoolImg = [
+  "url(assets/img/schoolOne.jpeg)",
+  "url(assets/img/schoolTwo.jpeg)",
+  "url(assets/img/schoolThree.jpeg)",
+];
 
 btn.addEventListener("click", () => change());
 
@@ -102,57 +122,50 @@ function change() {
   let res = document.getElementById("resultText");
   let loc = place.value;
   let feel = feeling.value;
-  let bg = document.getElementById("bg");
 
-  // var activity = "";
-
-  // 0 HOME
-  // 1 PENTAGON
-  // 2 PARK
-  // 3 STONEHENGE
-  // 4 A PARTY
+  // 0 HOME  // 1 PENTAGON  // 2 PARK  // 3 STONEHENGE  // 4 A PARTY
 
   if (loc == 0) {
     activity =
       atHome[Math.floor(Math.random() * 6)] ||
       general[Math.floor(Math.random() * 6)];
 
-      bg.style.backgroundImage = HomeImg[Math.floor(Math.random() * 3)];
-      bg.style.backgroundSize = bgSize;
-      //bg.style.opacity = "50%";
+    bg.style.backgroundImage = HomeImg[Math.floor(Math.random() * 3)];
+    bg.style.backgroundSize = bgSize;
+    //bg.style.opacity = "50%";
   } else if (loc == 1) {
     activity =
       atPentagon[Math.floor(Math.random() * 6)] ||
       general[Math.floor(Math.random() * 6)];
 
-      bg.style.backgroundImage = PentImg[Math.floor(Math.random() * 3)];
-      bg.style.backgroundSize = bgSize;
+    bg.style.backgroundImage = PentImg[Math.floor(Math.random() * 3)];
+    bg.style.backgroundSize = bgSize;
   } else if (loc == 2) {
     activity =
       atPark[Math.floor(Math.random() * 6)] ||
       general[Math.floor(Math.random() * 6)];
 
-      bg.style.backgroundImage = ParkImg[Math.floor(Math.random() * 3)];
-      bg.style.backgroundSize = cover;
-      //bg.style.opacity = "50%";
+    bg.style.backgroundImage = ParkImg[Math.floor(Math.random() * 3)];
+    bg.style.backgroundSize = bgSize;
+    //bg.style.opacity = "50%";
   } else if (loc == 3) {
     activity =
       atStonehenge[Math.floor(Math.random() * 6)] ||
       general[Math.floor(Math.random() * 6)];
 
-      bg.style.backgroundImage = StoneImg[Math.floor(Math.random() * 3)];
-      bg.style.backgroundSize = cover;
+    bg.style.backgroundImage = StoneImg[Math.floor(Math.random() * 3)];
+    bg.style.backgroundSize = bgSize;
   } else if (loc == 4) {
     activity =
       atParty[Math.floor(Math.random() * 6)] ||
       general[Math.floor(Math.random() * 6)];
 
-      bg.style.backgroundImage = PartyImg[Math.floor(Math.random() * 3)];
-      bg.style.backgroundSize = cover;
-  }else{
-    activity=
-    atSchool[Math.floor(Math.random() * 6)] ||
-    general[Math.floor(Math.random() * 6)];
+    bg.style.backgroundImage = PartyImg[Math.floor(Math.random() * 3)];
+    bg.style.backgroundSize = bgSize;
+  } else {
+    activity =
+      atSchool[Math.floor(Math.random() * 6)] ||
+      general[Math.floor(Math.random() * 6)];
 
     bg.style.backgroundImage = SchoolImg[Math.floor(Math.random() * 3)];
     bg.style.backgroundSize = bgSize;

@@ -15,7 +15,8 @@
 h2,
 h4,
 .andIam,
-.title {
+.title,
+.btn {
   font-family: "MTF Gridie", sans-serif;
 }
 
@@ -33,7 +34,7 @@ h4,
 
 #resultText,
 .fixtext,
-.btn {
+.btn{
   display: inline;
 }
 
@@ -41,11 +42,11 @@ h4,
   margin-top: 5rem;
   border: transparent;
 }
-.text-bg-light{
+
+.text-bg-light {
   border-radius: 1rem;
-  /* opacity: 50%;
-  z-index: 0; */
 }
+
 button:disabled {
   opacity: 50%;
   background-color: #a6763e;
